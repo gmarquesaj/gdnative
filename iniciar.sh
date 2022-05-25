@@ -1,5 +1,5 @@
 #!/bin/bash
-
+cd $2
 printf '[gd_resource type="GDNativeLibrary" format=2]\n\n[resource]\nentry/X11.64 = "res://SimpleLibrary/bin/lib_'>lib.tres
 printf $1>>lib.tres
 printf '.so"\ndependency/X11.64 = [  ]'>>lib.tres
